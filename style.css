@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    background-image: linear-gradient(to right,black 20%,white  10%);
+    height: 100vh;
+}
+
+ img {
+    width: 150px;
+    height: 150px;
+    margin-top: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+   padding: 20px;
+   margin-left: 5%;
+   }
+
+  /* Navegação */
+
+  nav{
+   font-family: "Bebas Neue", sans-serif;
+   font-style: normal;
+  }
+
+   ul li.sobremim a {
+
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+    
+}
+  
+
+ ul li.conhecimentos a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+   }
+
+ ul li.objetivos a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 7%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+    }
+
+ ul li.email a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+ }
+
+ ul li.telefone a {
+
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-left: 6%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+ }
+
+ ul li.nome a {
+    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+    margin-top:1%;
+    display:flex;
+    margin-bottom: 20px;
+    top: 70%;
+    transform: translateY(-50%);
+  
+ }
+
+ ul li.idade a {
+    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+ }
+
+ ul li.civil a {
+
+    font-size: 24px;
+    color: white;
+    margin-left:5%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+ }
+
+ ul li.cidade a {
+
+    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+ }
+ 
+ ul li.estado a {
+
+    font-size: 24px;
+    color: white;
+    margin-left: 5%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+ }
+
+ ul li.nacionalidade a {
+
+    font-size: 24px;
+    color: white;
+    margin-left: 4%;
+    display: flex;
+    margin-bottom: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+ }
+    
+ /* Textos */
+
+  
+ .text1 { 
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    background: linear-gradient( to right, black 50%, Navy 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 31%;
+    transform: translateY(-50%);
+    left:31%;
+    transform: translateX(-50%);
+    }
+
+ .text2 {
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    background: linear-gradient( to right, black 67%, Navy 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left:32%;
+    transform: translateX(-50%);
+    }
+
+ .text3 {
+    color: black;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 42%;
+    transform: translateX(-50%);
+    }
+
+ .text4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-size: 4rem;
+    background: linear-gradient( to right, black 30%, Navy 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    left:50%;
+    transform: translateX(-50%);
+   
+    }
+    .history {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 20px;
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      left:50%;
+      transform: translateX(-50%);
+      max-width: 800px;     
+      line-height: 1.6;       
+      }
+      .hardskills {
+         font-family: "Bebas Neue", sans-serif;
+         font-size: 2rem;
+         position: absolute;
+         top: 40%;
+         transform: translateY(-50%);
+         left:50%;
+         transform: translateX(-50%);
+         max-width: 800px;      
+         line-height: 1.6; 
+         }
+         .metas {
+            font-family: "Bebas Neue", sans-serif;
+            font-size: 20px;
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            left:50%;
+            transform: translateX(-50%);
+            max-width: 800px;     
+            line-height: 1.6; 
+            }
+
+    /* icones */
+
+ .icones {
+    font-size: 46px;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left:30%;
+    transform: translateX(-50%);
+
+
+    }
+
+  .fa-square-github{
+    color: black;
+    }
+
+ .fa-square-x-twitter{
+    color: black;
+    }
+ .fa-linkedin{ 
+    color: navy;
+    }
+ .fa-square-facebook{
+    color:Navy;
+    }
+
+ .fa-html5{
+    color: orange;
+    margin-left: 8%;
+    margin-bottom: 20px;
+    font-size: 80px;
+    outline: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+    }
+    .fa-css3-alt{
+       color:rgb(30,144,255);
+      font-size: 80px;
+      margin-left: -4%;
+      position: absolute;
+      top: 59%;
+      transform: translateY(-50%);
+      
+    }
+
+    .fa-js {
+        color: yellow;
+        font-size: 80px;
+        margin-left: -4%;
+        position: absolute;
+        top: 71%;
+        transform: translateY(-50%);
+    }
+    .fa-code {
+    color: white;
+    margin-left: 7%;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 80px;
+    }
+
+ .fa-user-tie {
+    color: white;
+    margin-left: 6%;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 80px;
+    padding: 26px;
+    }
+
+ .fa-house {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top:3%;
+    transform: translateY(-50%);
+    left:17%;
+    transform: translateX(-50%);
+    }
+
