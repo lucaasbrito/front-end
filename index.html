@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,68 +16,74 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Lucas Brito</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-
   <body>
     <header>
-      <img src="/assets/perfil.jpg" alt="foto perfil" />
-
+      <a href="./index.html">
+        <img src="/assets/perfil.jpg" alt="Foto de perfil de Lucas Brito" />
+      </a>
       <nav>
         <ul>
-          <li class="sobremim">
+          <li class="about">
             <a href="./sobremim.html">Sobre Mim</a>
           </li>
-
-          <li class="conhecimentos">
-            <a href="./conhecimentos.html">conhecimentos</a>
+          <li class="skills">
+            <a href="./conhecimentos.html">Conhecimentos</a>
           </li>
-
-          <li class="objetivos">
-            <a href="/objetivos.html">objetivos</a>
+          <li class="goal">
+            <a href="./objetivos.html">Objetivos</a>
           </li>
-
           <li class="email">
-            <a href="mailto:seuemail@dominio.com">Enviar e-mail</a>
+            <a href="mailto:contatolucasbrito@gmail.com" target="_blank"
+              >Enviar e-mail</a
+            >
           </li>
-          <li class="telefone">
-            <a href="tel:19998555740">Ligar Telefone</a>
+          <li class="phone">
+            <a href="tel:19998555740" target="_blank">Ligar Telefone</a>
           </li>
         </ul>
       </nav>
     </header>
-    <main>
-      <article class="home-text">
-        <h1 class="text1">Lucas Brito</h1>
-        <address class="text2">
-          Rua Antonio Conselhero,170 AMERICANA -SP
-        </address>
-        <span class="text3"
-          >Sou uma pessoa muito dedicada e esforçada, tenho minhas metas claras
-          e estou determinado a alcançá-las.</span
-        >
 
-        <section class="icones">
-          <a
-            href="https://www.linkedin.com/in/lucas-brito-b77337318/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a href="https://github.com/lucaasbrito" target="_blank"
-            ><i class="fa-brands fa-square-github"></i
-          ></a>
-          <a href="https://x.com/lucaasbrtt" target="_blank"
-            ><i class="fa-brands fa-square-x-twitter"></i
-          ></a>
-          <a
-            href="https://www.facebook.com/profile.php?id=61562774737350"
-            target="_blank"
-            ><i class="fa-brands fa-square-facebook"></i
-          ></a>
-        </section>
-      </article>
+    <!-- Conteúdo Principal -->
+    <main>
+      <h1 class="title-home">Lucas <span>Brito</span></h1>
+      <address class="address">Rua Antonio Conselheiro, 170</address>
+      <address><span class="city-home">AMERICANA-SP</span></address>
+
+      <em class="text-home">
+        Sou uma pessoa muito dedicada e esforçada, tenho minhas metas claras e
+        estou determinado a alcançá-las.
+      </em>
     </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <section class="icons-home">
+        <a
+          href="https://www.linkedin.com/in/lucas-brito-b77337318/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/lucaasbrito" target="_blank">
+          <i class="fa-brands fa-square-github"></i>
+        </a>
+        <a href="https://x.com/lucaasbrtt" target="_blank">
+          <i class="fa-brands fa-square-x-twitter"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/profile.php?id=61562774737350"
+          target="_blank"
+        >
+          <i class="fa-brands fa-square-facebook"></i>
+        </a>
+      </section>
+      <div class="copy">
+        <p>&copy; 2024 Lucas da Hora de Brito. Todos os direitos reservados.</p>
+      </div>
+    </footer>
   </body>
 </html>
